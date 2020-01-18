@@ -4,7 +4,7 @@ defmodule MyBff.Mixfile do
   def project do
     [app: :my_bff,
      version: "0.0.1",
-     elixir: "~> 1.6",
+     elixir: "~> 1.5",
      elixirc_paths: elixirc_paths(Mix.env),
      compilers: [:phoenix, :gettext] ++ Mix.compilers,
      build_embedded: Mix.env == :prod,
@@ -36,7 +36,7 @@ defmodule MyBff.Mixfile do
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
-     {:gettext, "~> 0.11"},
+     {:gettext, "~> 0.8"},
      {:httpoison, "~> 1.6"},
      {:cowboy, "~> 1.0"}]
   end
