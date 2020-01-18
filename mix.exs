@@ -36,7 +36,7 @@ defmodule MyBff.Mixfile do
      {:postgrex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
-     {:gettext, "~> 0.8"},
+     {:gettext, "~> 0.6"},
      {:httpoison, "~> 1.6"},
      {:cowboy, "~> 1.0"}]
   end
