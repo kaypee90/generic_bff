@@ -1,4 +1,4 @@
-# MyBff
+# GENERIC PROXY
 
 To start your Phoenix app:
 
